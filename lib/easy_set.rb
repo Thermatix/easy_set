@@ -1,4 +1,4 @@
-require "./easy_set/version"
+require_relative "./easy_set/version"
 
 require 'yaml'
 module Easy_Set
