@@ -33,12 +33,11 @@ module Easy_Set
           @store[key] = value
         end
 
-      end
+    end
 
-
-      def self.included(child)
-        child.instance_variable_set(:@store, {})
-        child.extend(Singleton_Methods)
-      end
+    def self.included(child)
+      child.instance_variable_set(:@store, {})
+      child.extend(Singleton_Methods)
+    end
 
 end
