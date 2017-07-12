@@ -8,6 +8,10 @@ module Easy_Set
         @store[key]
       end
 
+      def []=(key,value)
+        @store[key] = value
+      end
+
       def display
         @store.inspect
       end
